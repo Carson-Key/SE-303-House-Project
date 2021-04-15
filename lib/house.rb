@@ -1,5 +1,5 @@
 class House
-    @@lines = ["", "", "the malt that lay in "]
+    @@lines = ["", "", "the malt that lay in ", "the rat that ate the malt that lay in "]
 
     def line(number)
         case number
@@ -8,7 +8,7 @@ class House
         when 2
             "This is #{@@lines[number]}the house that Jack built.\n"
         when 3
-            "This is the rat that ate the malt that lay in the house that Jack built.\n"
+            "This is #{@@lines[number]}the house that Jack built.\n"
         when 4
             "This is the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
         else 
