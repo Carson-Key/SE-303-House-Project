@@ -1,4 +1,8 @@
 class House
+    def recite
+        (1..12).collect { |i| line(i) }.join("\n")
+    end
+
     def line(number)
         case number
         when 1
