@@ -44,7 +44,7 @@ class House
         when 12
             "#{phrases[10]}#{phrases[9]}#{phrases[8]}#{phrases[7]}#{phrases[6]}#{phrases[5]}#{phrases[4]}#{phrases[3]}#{phrases[2]}#{phrases[1]}#{phrases[0]}"
         else
-            ""
+            phrases.first(number-1).reverse.join()
         end
     end
 
