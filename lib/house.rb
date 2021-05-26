@@ -1,4 +1,8 @@
 class House
+    def initializer(prefix = "This is")
+        @prefix = prefix
+    end
+
     def recite
         (1..12).collect { |i| line(i) }.join("\n")
     end
