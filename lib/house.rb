@@ -20,12 +20,7 @@ class House
     end
 
     def phrase(number)
-        case number
-        when 12
-            phrases.first(number-1).reverse.join()
-        else
-            phrases.first(number-1).reverse.join()
-        end
+        phrases.first(number-1).reverse.join()
     end
 
     def line(number)
