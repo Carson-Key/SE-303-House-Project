@@ -21,8 +21,6 @@ class House
 
     def phrase(number)
         case number
-        when 6
-            phrases.first(number-1).reverse.join()
         when 7
             "#{phrases[5]}#{phrases[4]}#{phrases[3]}#{phrases[2]}#{phrases[1]}#{phrases[0]}"
         when 8
