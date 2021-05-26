@@ -20,7 +20,7 @@ class House
     end
 
     def phrase(number)
-        phrases.first(number-1).reverse.join()
+        phrases.first(number-1).reverse.join
     end
 
     def line(number)
