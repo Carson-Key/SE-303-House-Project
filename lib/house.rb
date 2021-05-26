@@ -22,7 +22,7 @@ class House
     def phrase(number)
         case number
         when 2
-            "the malt that lay in "
+            phrases[0]
         when 3
             "the rat that ate the malt that lay in "
         when 4
