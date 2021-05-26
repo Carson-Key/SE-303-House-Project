@@ -24,7 +24,7 @@ class House
         when 2
             phrases[0]
         when 3
-            "the rat that ate #{phrases[0]}"
+            "#{phrases[1]}#{phrases[0]}"
         when 4
             "the cat that killed the rat that ate the malt that lay in "
         when 5
