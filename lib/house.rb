@@ -22,7 +22,7 @@ class House
     def phrase(number)
         case number
         when 2
-            phrases.first(number-1).join()
+            phrases.first(number-1).reverse.join()
         when 3
             phrases.first(number-1).reverse.join()
         when 4
