@@ -42,7 +42,7 @@ class House
         when 11
             "#{phrases[9]}#{phrases[8]}#{phrases[7]}#{phrases[6]}#{phrases[5]}#{phrases[4]}#{phrases[3]}#{phrases[2]}#{phrases[1]}#{phrases[0]}"
         when 12
-            "the horse and the hound and the horn that belonged to #{phrases[9]}#{phrases[8]}#{phrases[7]}#{phrases[6]}#{phrases[5]}#{phrases[4]}#{phrases[3]}#{phrases[2]}#{phrases[1]}#{phrases[0]}"
+            "#{phrases[10]}#{phrases[9]}#{phrases[8]}#{phrases[7]}#{phrases[6]}#{phrases[5]}#{phrases[4]}#{phrases[3]}#{phrases[2]}#{phrases[1]}#{phrases[0]}"
         else
             ""
         end
