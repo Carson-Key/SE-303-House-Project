@@ -30,7 +30,7 @@ class House
         when 5
             "#{phrases[3]}#{phrases[2]}#{phrases[1]}#{phrases[0]}"
         when 6
-            "the cow with the crumpled horn that tossed #{phrases[3]}#{phrases[2]}#{phrases[1]}#{phrases[0]}"
+            "#{phrases[4]}#{phrases[3]}#{phrases[2]}#{phrases[1]}#{phrases[0]}"
         when 7
             "the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "
         when 8
