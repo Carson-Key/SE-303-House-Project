@@ -32,7 +32,7 @@ class House
         when 6
             "#{phrases[4]}#{phrases[3]}#{phrases[2]}#{phrases[1]}#{phrases[0]}"
         when 7
-            "the maiden all forlorn that milked #{phrases[4]}#{phrases[3]}#{phrases[2]}#{phrases[1]}#{phrases[0]}"
+            "#{phrases[5]}#{phrases[4]}#{phrases[3]}#{phrases[2]}#{phrases[1]}#{phrases[0]}"
         when 8
             "the man all tattered and torn that kissed the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in "
         when 9
