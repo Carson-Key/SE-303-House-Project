@@ -28,6 +28,6 @@ class House
     end
 
     def line(number)
-        "This is #{phrase(number)}the house that Jack built.\n"
+        "#{@prefix} #{phrase(number)}the house that Jack built.\n"
     end
 end
