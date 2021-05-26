@@ -26,7 +26,7 @@ class House
         when 3
             "#{phrases[1]}#{phrases[0]}"
         when 4
-            "the cat that killed #{phrases[1]}#{phrases[0]}"
+            "#{phrases[2]}#{phrases[1]}#{phrases[0]}"
         when 5
             "the dog that worried the cat that killed the rat that ate the malt that lay in "
         when 6
