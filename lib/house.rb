@@ -22,7 +22,7 @@ class House
     def phrase(number)
         case number
         when 2
-            phrases[0]
+            phrases.first(number-1).join()
         when 3
             "#{phrases[1]}#{phrases[0]}"
         when 4
