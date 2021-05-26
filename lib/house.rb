@@ -24,7 +24,7 @@ class House
         when 2
             phrases.first(number-1).join()
         when 3
-            "#{phrases[1]}#{phrases[0]}"
+            phrases.first(number-1).reverse.join()
         when 4
             "#{phrases[2]}#{phrases[1]}#{phrases[0]}"
         when 5
