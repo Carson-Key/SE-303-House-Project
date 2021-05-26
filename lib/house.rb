@@ -4,7 +4,11 @@ class House
     end
 
     def phrase(number)
-        "the malt that lay in "
+        if number == 2
+            "the malt that lay in "
+        else
+            ""
+        end
     end
 
     def line(number)
