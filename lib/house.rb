@@ -3,6 +3,10 @@ class House
         (1..12).collect { |i| line(i) }.join("\n")
     end
 
+    def phrase(number)
+        "the malt that lay in "
+    end
+
     def line(number)
         case number
         when 1
