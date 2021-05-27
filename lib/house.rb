@@ -31,3 +31,7 @@ class House
         "#{@prefix} #{phrase(number)}the house that Jack built.\n"
     end
 end
+
+class RandomHouse
+
+end
