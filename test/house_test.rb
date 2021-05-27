@@ -95,3 +95,12 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
   end
 
 end
+
+class PirateHouseTest < Minitest::Test
+
+  def test_line_1
+    expected = "Thar be the house that Jack built.\n"
+    assert_equal expected, House.new("Thar be").line(1)
+  end
+
+end
