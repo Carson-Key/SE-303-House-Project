@@ -32,6 +32,6 @@ class House
     end
 end
 
-class RandomHouse
+class RandomHouse < House
 
 end
