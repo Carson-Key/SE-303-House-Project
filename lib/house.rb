@@ -46,6 +46,6 @@ class RandomHouse < House
             "the rooster that crowed in the morn that woke ",
             "the farmer sowing his corn that kept ",
             "the horse and the hound and the horn that belonged to "
-        ]
+        ].shuffle()
     end
 end
