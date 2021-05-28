@@ -1,6 +1,7 @@
 class House
     def initialize(prefix = "This is")
         @prefix = prefix
+        @phrases = phrases
     end
 
     def recite
@@ -24,7 +25,7 @@ class House
     end
 
     def phrase(number)
-        phrases.first(number-1).reverse.join
+        @phrases.first(number-1).reverse.join
     end
 
     def line(number)
