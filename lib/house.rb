@@ -38,3 +38,7 @@ class RandomHouse < House
         super.shuffle
     end
 end
+
+class RandomVerseHouse < House
+    
+end
