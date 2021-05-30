@@ -40,5 +40,7 @@ class RandomHouse < House
 end
 
 class RandomVerseHouse < House
-    
+    def phrases
+        super.shuffle
+    end
 end
