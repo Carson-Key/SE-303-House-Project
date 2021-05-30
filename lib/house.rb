@@ -53,7 +53,7 @@ class RandomVerseHouse < House
             "that woke ",
             "that kept ",
             "that belonged to "
-        ]
+        ].shuffle
     end
 
     def nouns
@@ -69,7 +69,7 @@ class RandomVerseHouse < House
             "the rooster that crowed in the morn ",
             "the farmer sowing his corn ",
             "the horse and the hound and the horn "
-        ]
+        ].shuffle
     end
 
     def phrases
